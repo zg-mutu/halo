@@ -141,12 +141,12 @@ public class TongJiaServiceImpl implements TongJiaService {
         param.setSummary(sb_desc.toString());
         param.setStatus(PostStatus.PUBLISHED);
         //封面图链接
-        param.setThumbnail("http://127.0.0.1:8090/upload/2020/04/%E4%BB%8A%E6%97%A5%E9%93%9C%E4%BB%B73-d6ebe21f64884696960bd0a6be5adb35.jpg");
+        param.setThumbnail("https://zhaolan.wang/upload/2020/04/%E4%BB%8A%E6%97%A5%E9%93%9C%E4%BB%B7-db97a3d3afa94b1e933ccee1e1028d66.jpg");
         Set<Integer> tagIds = new HashSet<>();
-        tagIds.add(1);
+        tagIds.add(4);
         param.setTagIds(tagIds);
         Set<Integer> categoryIds = new HashSet<>();
-        categoryIds.add(2);
+        categoryIds.add(3);
         param.setCategoryIds(categoryIds);
         Set<PostMetaParam> metas = new HashSet<>();
         param.setMetas(metas);
