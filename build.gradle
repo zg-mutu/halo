@@ -86,6 +86,7 @@ dependencies {
 
     implementation "cn.hutool:hutool-core:$hutoolVersion"
     implementation "cn.hutool:hutool-crypto:$hutoolVersion"
+    implementation "cn.hutool:hutool-all:$hutoolVersion"
     implementation "cn.hutool:hutool-extra:$hutoolVersion"
     implementation "com.upyun:java-sdk:$upyunSdkVersion"
     implementation "com.qiniu:qiniu-java-sdk:$qiniuSdkVersion"
